@@ -8,7 +8,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'https://assign-89sdf98-wrgr.vercel.app/aboutus', // Replace with your frontend URL
+  origin: 'https://assign-89sdf98-wrgr.vercel.app', // Replace with your frontend URL
 }));
 app.use(cors())
 app.use(express.json());
