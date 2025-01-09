@@ -6,10 +6,9 @@ const cors = require('cors');
 const app = express();
 
 
-
 app.use(cors({
-  origin: 'https://assign-89sdf98-wrgr.vercel.app', // Replace with your frontend URL
-}));
+    origin: 'https://analytixs.vercel.app', // Replace with your frontend URL
+  }));
 app.use(cors())
 app.use(express.json());
 
